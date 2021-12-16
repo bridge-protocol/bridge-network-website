@@ -7,7 +7,7 @@ $(function(){
 
 function loadContent(page){
     if(page == "documentation"){
-        window.location.href = 'docs/overview';
+        window.location.href = 'https://docs.bridgeprotocol.io';
     }
 
     $.get( page + ".html", function( data ) {
